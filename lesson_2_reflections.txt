@@ -7,9 +7,11 @@ What value do you think it offers?
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+    Add only the related files, use git diff --staged to see what will be changed with the commit.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+    It helps me experiment with the code without making modifications to the main branch.
 
 How do the diagrams help you visualize the branch structure?
 
