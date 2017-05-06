@@ -1,25 +1,36 @@
 What happens when you initialize a repository? Why do you need to do it?
-    A .git folder is added.  This stores the metadata for the repository and commit history.
+    A .git folder is added.  This stores the metadata for the repository and 
+    commit history.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
-    It's an indermediate step, and it gives more power to the user to determine what files to commit and which ones to not commit.
+    It's an indermediate step between the working directory and repository, and
+    it gives more power to the user to determine what files to commit and which
+    ones not to commit.  This also lets the user make commits with only changes
+    related to each other.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
-    Add only the related files, use git diff --staged to see what will be changed with the commit.
+    Add only the related files, use git diff --staged to see what will be 
+    changed with the commit.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
-    It helps me experiment with the code without making modifications to the main branch.
+    Making new branches helps me experiment with the code without changing the 
+    main branch.
 
 How do the diagrams help you visualize the branch structure?
-    It lets me follow the flow of the commits and understand the history behind the project, including where and when branches were made.
+    They let me follow the flow of the commits and understand the history behind
+    the project, including where and when branches were made.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
-    The changes from one branch are merged with the changes from the other.  The old branch still retains its label, so it should be deleted after merging to avoid continuing the branch.
+    The changes from one branch are merged with the changes from the other.
+    The old branch still retains its label, so it should be deleted after
+    merging to avoid continuing the branch.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
-    Pros are that it speeds up the process of combining two branches, and it helps users work on different parts of a project and combine them at a later time. Cons are that unintuitive conflicts may arise that seem easy to fix by the user.
+    Pros are: it speeds up the process of combining two branches, and it helps 
+    users work on different parts of a project and combine them at a later time.
+    Cons are: unintuitive conflicts may arise that seem easy to fix by the user.
