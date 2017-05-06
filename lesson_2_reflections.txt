@@ -14,9 +14,12 @@ organized? How would branches help?
     It helps me experiment with the code without making modifications to the main branch.
 
 How do the diagrams help you visualize the branch structure?
+    It lets me follow the flow of the commits and understand the history behind the project, including where and when branches were made.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+    The changes from one branch are merged with the changes from the other.  The old branch still retains its label, so it should be deleted after merging to avoid continuing the branch.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+    Pros are that it speeds up the process of combining two branches, and it helps users work on different parts of a project and combine them at a later time. Cons are that unintuitive conflicts may arise that seem easy to fix by the user.
